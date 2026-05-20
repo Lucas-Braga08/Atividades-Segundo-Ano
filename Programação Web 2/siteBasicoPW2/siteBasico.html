@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeuSite</title>
+    <link rel="stylesheet" href="siteBasico.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+    <div class="nav">
+        <h2 class="logo">MeuSite</h2>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+
+                <li class="dropdown">
+                    <a href="#" id="btnServicos">Serviços ▾</a>
+
+                    <ul class="submenu" id="submenu">
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Desenvolvimento</a></li>
+                        <li><a href="#">Marketing</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <!-- Conteúdo principal -->
+    <main class="container">
+        <div class="carrossel">
+
+        <div class="slides">
+            <img src="https://picsum.photos/id/1015/900/400" class="slide active">
+            <img src="https://picsum.photos/id/1016/900/400" class="slide">
+            <img src="https://picsum.photos/id/1018/900/400" class="slide">
+        </div>
+
+        <!-- Botões -->
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+
+    </div>
+        <section class="conteudo">
+            <h1>Bem-vindo ao Meu Site</h1>
+            <p>Este é um exemplo simples de site com HTML, CSS e JavaScript.</p>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2026 Paisagens Fotos - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="siteBasico.js"></script>
+</body>
+</html>
